@@ -1,4 +1,4 @@
-package practice02;
+package practiceW02;
 
 import java.util.ArrayList;
 import java.util.Collections;
