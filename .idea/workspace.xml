@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b051e4-5006-4b62-b7c6-9b602626810e" name="Changes" comment="add: Practice02">
-      <change afterPath="$PROJECT_DIR$/src/practice03/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice03/Practice01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice03/Practice02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice03/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/Practice01_read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/Practice01_write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/Practice02_read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/Practice02_write.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW04/skim.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,33 +39,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/WebCodeSecurity"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WebCodeSecurity&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice02" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebCodeSecurity\src\practiceW04" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.practiceW03.Practice01">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="WebCodeSecurity" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceW02.Practice01" />
+  <component name="RunManager" selected="Application.Practice02_read">
+    <configuration name="Practice01_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW04.Practice01_read" />
       <module name="WebCodeSecurity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceW02.*" />
+          <option name="PATTERN" value="practiceW04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceW02.Practice02" />
+    <configuration name="Practice01_write" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW04.Practice01_write" />
       <module name="WebCodeSecurity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceW02.*" />
+          <option name="PATTERN" value="practiceW04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceW02.Practice03" />
+    <configuration name="Practice02_read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW04.Practice02_read" />
       <module name="WebCodeSecurity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceW02.*" />
+          <option name="PATTERN" value="practiceW04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice02_write" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW04.Practice02_write" />
+      <module name="WebCodeSecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceW04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice02_read" />
+        <item itemvalue="Application.Practice02_write" />
+        <item itemvalue="Application.Practice01_read" />
+        <item itemvalue="Application.Practice01_write" />
         <item itemvalue="Application.practiceW03.Practice01" />
-        <item itemvalue="Application.Practice03" />
-        <item itemvalue="Application.Practice02" />
-        <item itemvalue="Application.Practice01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
