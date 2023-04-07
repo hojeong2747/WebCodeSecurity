@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55b051e4-5006-4b62-b7c6-9b602626810e" name="Changes" comment="add: Practice02">
-      <change afterPath="$PROJECT_DIR$/src/practiceW05/Practice01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="55b051e4-5006-4b62-b7c6-9b602626810e" name="Changes" comment="add: Practice02" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/WebCodeSecurity"
+    "last_opened_file_path": "C:/SpringBoot/Kusitms_DongA/Backend/build.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
