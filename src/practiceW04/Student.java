@@ -44,6 +44,20 @@ public class Student implements Serializable {
     }
 
     // PracticeW04_01
+    boolean writeToFile(String fname) throws IOException {
+        // 해당 객체를 주어진 파일에 텍스트 형태로 저장
+
+        try (PrintWriter out = new PrintWriter(new FileWriter(fname))) {
+            out.println(this.getSid()); // 신기하게도, this. 을 이용해서 객체에 저장된 값을 사용할 수 있음.
+            out.println(this.getName());
+            out.println(this.getMajor());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return true;
+    }
+
     static Student readFromFile(String fname) throws FileNotFoundException {
         // 파일 fname에 저장된 정보를 이용해 객체 생성 후 반환, 객체 정보는 텍스트 형태
 
@@ -71,20 +85,6 @@ public class Student implements Serializable {
         return student;
     }
 
-    boolean writeToFile(String fname) throws IOException {
-        // 해당 객체를 주어진 파일에 텍스트 형태로 저장
-
-        try (PrintWriter out = new PrintWriter(new FileWriter(fname))) {
-            out.println(this.getSid());
-            out.println(this.getName());
-            out.println(this.getMajor());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return true;
-    }
-
     // PracticeW04_02
     // 직렬화
     static boolean writeObject(String fname, Student s) throws FileNotFoundException {
@@ -92,7 +92,7 @@ public class Student implements Serializable {
 
         try (FileOutputStream fstream = new FileOutputStream(fname)) {
             try (ObjectOutputStream ostream = new ObjectOutputStream(fstream)) {
-                ostream.writeObject((Student)s);
+                ostream.writeObject(s);
             }
 
         } catch (IOException e) {
@@ -106,7 +106,7 @@ public class Student implements Serializable {
         // 주어진 파일에 저장된 정보를 이용하여 객체를 생성하고 반환
         // 객체 정보는 직렬화되어 파일에 저장되어 있다고 가정함
 
-        Student student = new Student();
+        Student student = new Student(); // Student 클래스니까 생성자 안 써도 되는 건가, 그런 것 같음.
         try (FileInputStream fis = new FileInputStream(fname)) {
             try (ObjectInputStream ois = new ObjectInputStream(fis)) {
                 Object obj = ois.readObject();
