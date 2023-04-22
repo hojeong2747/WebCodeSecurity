@@ -19,9 +19,9 @@ public class Practice02_compare02 {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("입력 파일 이름 : ");
-        String read_ftext = sc.nextLine();
+        String read_FText = sc.nextLine();
 
-        try (FileInputStream fis = new FileInputStream(read_ftext)) {
+        try (FileInputStream fis = new FileInputStream(read_FText)) {
             read_hash = fis.readAllBytes();
 
             // 해시값 계산
@@ -44,7 +44,7 @@ public class Practice02_compare02 {
 
         System.out.print("저장된 해시값 파일 이름 : ");
         String read_fhash = sc.nextLine();
-        try (FileReader fr = new FileReader(read_fhash)) { // 아, 그냥 파일 읽는 거라 readAllBytes 하면 안 되고, 바이트 아니라 문자로 읽어들여야 함.
+        try (FileReader fr = new FileReader(read_fhash)) {
             sc = new Scanner(new BufferedReader(fr));
             saved_hash = sc.nextLine();
 
