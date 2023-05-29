@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55b051e4-5006-4b62-b7c6-9b602626810e" name="Changes" comment="add: Practice02">
-      <change afterPath="$PROJECT_DIR$/src/practiceW09/Practice02_sign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practiceW09/Practice02_verify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW11/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW11/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW11/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceW11/Practice02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +63,13 @@
       <recent name="C:\WebCodeSecurity\src\practiceW04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice02_verify">
-    <configuration name="Practice01_save" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceW09.Practice01_save" />
+  <component name="RunManager" selected="Application.Practice02">
+    <configuration name="Practice01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW11.Practice01" />
       <module name="WebCodeSecurity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practiceW09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice01_sign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practiceW09.Practice01_sign" />
-      <module name="WebCodeSecurity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practiceW09.*" />
+          <option name="PATTERN" value="practiceW11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practiceW09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practiceW11.Practice02" />
+      <module name="WebCodeSecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practiceW11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice02" />
+        <item itemvalue="Application.Practice01" />
         <item itemvalue="Application.Practice02_verify" />
         <item itemvalue="Application.Practice02_sign" />
         <item itemvalue="Application.Practice01_verify" />
-        <item itemvalue="Application.Practice01_sign" />
-        <item itemvalue="Application.Practice01_save" />
       </list>
     </recent_temporary>
   </component>
