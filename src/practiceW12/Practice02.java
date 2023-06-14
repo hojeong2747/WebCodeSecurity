@@ -5,7 +5,7 @@ import practiceW12.Score;
 
 import java.util.Scanner;
 
-public class Practice01 {
+public class Practice02 {
 
     public static void main(String[] args) throws InvalidInputException {
         Scanner s = new Scanner(System.in);
@@ -17,6 +17,8 @@ public class Practice01 {
 
         String yourInput = getInput(s);
         Game user = encode(yourInput);
+        // 3. getInput() 메소드의 반환 값에 대한 post-condition 으로 체크
+        assert(user == Game.ROCK || user == Game.PAPER || user == Game.SCISSORS) : "잘못된 입력입니다.";
 
         Score rslt = whoswin(user, comInput);
         if (rslt == Score.WIN) {
@@ -35,11 +37,8 @@ public class Practice01 {
         String yourInput = s.next();
         Game user = encode(yourInput);
 
-        if (user != Game.ROCK && user != Game.PAPER && user != Game.SCISSORS) {
-            System.out.println("잘못된 입력입니다.");
-//            throw new InvalidInputException("잘못된 입력입니다.");
-            // 예외처리 공부하기.
-        }
+        // 2. getInput() 메소드에서 반환 직전에 post-condition 으로 체크
+//        assert(user == Game.ROCK || user == Game.PAPER || user == Game.SCISSORS) : "잘못된 입력입니다.";
         return yourInput;
     }
 
@@ -65,6 +64,8 @@ public class Practice01 {
     }
 
     private static Score whoswin(Game user, Game com) {
+        // 1. pre-condition 으로 체크
+//        assert(user == Game.ROCK || user == Game.PAPER || user == Game.SCISSORS) : "잘못된 입력입니다.";
 
         if (user == Game.ROCK) {
             if (com == Game.SCISSORS) {
